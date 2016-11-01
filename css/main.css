@@ -1,0 +1,365 @@
+/*MAIN STYLES*/
+body{
+    background-color: #111313;
+    color: #7f7f7f;
+    font: normal 14px/25px Arial, Helvetica, sans-serif;
+}
+button{
+    display: inline-block;
+    margin: 25px 5px 0 0;
+    padding: 0 25px 15px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef5f00+0,d41f00+100 */
+    background: #ef5f00; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ef5f00 0%, #d41f00 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ef5f00 0%,#d41f00 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ef5f00 0%,#d41f00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5f00', endColorstr='#d41f00',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+    font-family:'Glegoo', serif;
+    font-size: 22px;
+    line-height:24px;
+    border: 2px solid #d41f00;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-transition: text-decoration 0.6s;
+    -moz-transition: text-decoration 0.6s;
+    -o-transition: text-decoration 0.6s;
+    transition: text-decoration 0.6s;
+    outline: none;
+}
+button:hover{
+    text-decoration: underline;
+}
+/*NAVBAR*/
+.navbar{
+    margin-bottom: 0;
+    height: 142px;
+    background-color: #000;
+    border: none;
+}
+.navbar .navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar li{
+    display: inline-block;
+    float: left;
+    margin: 70px 0 60px;
+    padding: 0 15px;
+    line-height:0;
+}
+.navbar a{
+    color: #7f7f7f;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar  li a:hover,
+.navbar  li.active  a,
+.navbar  li.active  a:hover{
+    color: #cc2700;
+    background-color: transparent;
+}
+
+/*JUMBOTRON*/
+.jumbtron {
+    height: 360px;
+    background-color: #020202;
+}
+.jumbtron h2{
+    padding: 16px 0 35px;
+    color: #fff;
+    font-family: 'Glegoo', serif;
+    font-size: 35px;
+}
+.jumbtron img{
+    position: relative;
+    bottom: 35px;
+}
+/*IMAGE COLLECTION*/
+.image-collection{
+    margin-top: 40px;
+}
+.image-collection h3{
+    position: absolute;
+    left: 55px;
+    bottom: 160px;
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #fff, -2px -2px 5px #fff, -2px 2px 5px #fff, 2px -2px 5px #fff;
+}
+.image-collection img{
+    width: 100%;
+}
+.image-collection h3.join{
+    color: #ce0b0e;
+}
+.image-collection h3.sales{
+    color: #556502;
+}
+.image-collection h3.camp{
+    color: #4c6c6e;
+}
+.image-collection button{
+    position: relative;
+    bottom: 105px;
+    left: 35px;
+    padding: 3px 20px 15px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d7d7d7+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #d7d7d7 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#d7d7d7 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 0%,#d7d7d7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7d7d7',GradientType=0 ); /* IE6-9 */
+    font-family:'Glegoo', serif;
+    font-size: 18px;
+    line-height:24px;
+    outline: none;
+    -webkit-transition: text-decoration 0.6s;
+    -moz-transition: text-decoration 0.6s;
+    -o-transition: text-decoration 0.6s;
+    transition:  text-decoration 0.6s;
+    border: 1px solid #fff;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+.image-collection button:hover{
+    text-decoration: underline;
+}
+.image-collection button.join{
+    color: #ce0b0e;
+}
+.image-collection button.sales{
+    color: #556502;
+}
+.image-collection button.camp{
+    color: #4c6c6e;
+}
+
+/*MIDDLE*/
+
+.middle h2{
+    margin: 10px 0 40px;
+    color: #fff;
+    font-family:'Glegoo', serif;
+    font-size: 35px;
+}
+.middle  .calendar{
+    position:relative;
+    float: left;
+    margin: 10px 20px 180px 0;
+    width:63px;
+    color:#fff;
+    background: #ef5f00; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ef5f00 0%, #d41f00 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ef5f00 0%,#d41f00 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ef5f00 0%,#d41f00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font:bold 9px/10px Arial, Helvetica, sans-serif;
+    text-align:center;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+.middle .calendar em{
+    display:block;
+    color:#000;
+    background:#ededef;
+    font:normal bold 37px/50px Arial, Helvetica, sans-serif;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-bottom-right-radius:5px;
+    -moz-border-radius-bottomleft:5px;
+    -webkit-border-bottom-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.middle .page-event{
+    display: inline-block;
+    margin-top: 32px;
+    margin-right: 55px;
+}
+.middle .discription{
+    display: block;
+    padding-right:20px;
+}
+.middle .discription span{
+    color: #fff;
+}
+.middle .page-event:nth-child(3){
+    padding-top: 30px;
+    border-top: 1px dotted #353636;
+}
+.middle .page-event img{
+    float: left;
+    margin: 5px 20px 0 0;
+}
+.mid-title h3{
+    margin-top: 30px;
+    padding: 10px 40px 22px 22px;
+    background-color: #020303;
+    color: #fff;
+    font:normal 25px/28px Glegoo, serif;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+.middle ul li{
+    display: block;
+    padding: 5px 0;
+    margin-right: 40px;
+    color: #fff;
+    font: italic 14px/30px Arial, Helvetica, sans-serif;
+    border-bottom: 1px dotted #353636;
+}
+.middle ul li small{
+    padding-right:10px;
+}
+.middle ul li:last-child{
+    border-bottom: none;
+}
+.middle .page-event ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.middle .found ul{
+    margin: 0 0 65px 0;
+    padding: 0;
+}
+.middle .found ul li{
+    color: #7f7f7f;
+    font: normal 14px/28px Arial, Helvetica, sans-serif;
+}
+.middle .found ul li span{
+    padding-right: 10px;
+    color: #fff;
+}
+
+/*SIDEBAR*/
+
+.side-bar .found{
+    padding: 5px 20px;
+}
+.troop-meeting{
+    padding: 15px 20px 20px 20px;
+    margin-top: 25px;
+    margin-bottom:60px;
+    color: #7f7f7f;
+    background-color: #020202;
+    font-size: 14px;
+    line-height: 25px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+.troop-meeting h4{
+    color: #fff;
+    font:normal 19px/24px Glegoo, serif;
+}
+.troop-meeting img{
+    width: 100%;
+}
+.troop-meeting .meeting-time{
+    margin: 15px 0 10px;
+    color: #fff;
+}
+.side-bar .side-event{
+    padding: 0 20px;
+}
+.side-bar .side-event img{
+    margin: 25px 0;
+    width: 100%;
+}
+.side-bar .side-event ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+/*FOOTER*/
+
+.footer{
+    margin-top: 60px;
+    background-color: #030404;
+}
+.footer .copyright{
+    padding: 40px 0;
+    text-align: center;
+}
+.jumbtron p span,
+.footer .copyright span{
+    color: #cc2800;
+    text-decoration: underline;
+}
+.footer .social{
+    margin-top: 40px;
+    list-style-type: none;
+}
+.footer .social li a{
+    display: inline-block;
+    float: left;
+    margin-right: 6px;
+    width: 27px;
+    height: 27px;
+    background: url("../img/social.png") no-repeat;
+}
+.footer .social li a.ico-facebook{
+    background-position: 0 0;
+}
+.footer .social li a.ico-twitter{
+     background-position: -27px 0;
+ }
+.footer .social li a.ico-picasa{
+    background-position: -54px 0;
+}
+.footer .social li a.ico-youtube{
+    background-position: -81px 0;
+}
+
+/*LEADERS PAGE*/
+
+.middle .page-event .leader-list{
+    overflow: hidden;
+}
+.middle .page-event .leader-list li{
+    line-height: 22px;
+}
+
+/*GALLERY PAGE*/
+
+.middle .page-gallery img{
+    width: 100%;
+    margin: 10px;
+}
+
+/*CONTACT PAGE*/
+
+.contact input[type="text"],
+.contact textarea{
+    padding: 10px 24px;
+    margin: 5px 0;
+    border:1px solid transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+.contact input[type="text"]{
+    width: 300px;
+    height: 32px;
+}
+.contact textarea{
+    width: 600px;
+    height: 325px;
+}
+.contact .contact-btn{
+    float: left;
+}
+.side-event .discription a{
+    color: #cc2800;
+    text-decoration: underline;
+}
+.side-event .discription em{
+    text-align-last: justify;
+}

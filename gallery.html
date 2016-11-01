@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Glegoo" rel="stylesheet">
+</head>
+<body>
+<!--NAVIGATION-->
+<div class="navbar" role="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="navbar-brand">
+                    <img src="img/logo.png" alt="#">
+                </div>
+            </div>
+            <div class="col-sm-6">
+
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="foundations.html">Foundation</a></li>
+                    <li><a href="program.html">Program</a></li>
+                    <li><a href="leaders.html">Leaders</a></li>
+                    <li class="active"><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--IMAGE COOLECTION-->
+
+<div class="container">
+    <div class="row">
+        <div class="image-collection">
+            <div class="col-sm-4">
+                <img src="img/1-img-col.png" alt="#">
+                <h3 class="join">Join Us</h3>
+                <button class="join">more</button>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/2-img-col.png" alt="#">
+                <h3 class="sales">Spring<br> Tree Sales</h3>
+                <button class="sales">more</button>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/3-img-col.png" alt="#">
+                <h3 class="camp">Super<br> Camp</h3>
+                <button class="camp">more</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MIDDLE-->
+<section class="middle">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Our Gallery</h2>
+                <div class="page-gallery">
+                        <div class="main-img">
+                            <img id="preview" src="img/gal-img-1.png" alt="#">
+                        </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img onclick="getElementById('preview').src=getElementById('img1').src"  id="img1" src="img/gal-img-1.png" alt="#">
+                            <img onclick="getElementById('preview').src=getElementById('img4').src"  id="img4" src="img/gal-img-4.png" alt="#">
+                        </div>
+                        <div class="col-sm-4">
+                            <img onclick="getElementById('preview').src=getElementById('img2').src"  id="img2" src="img/gal-img-2.png" alt="#">
+                            <img onclick="getElementById('preview').src=getElementById('img5').src"  id="img5" src="img/gal-img-5.png" alt="#">
+                        </div>
+                        <div class="col-sm-4">
+                            <img onclick="getElementById('preview').src=getElementById('img3').src"  id="img3" src="img/gal-img-3.png" alt="#">
+                            <img onclick="getElementById('preview').src=getElementById('img6').src"  id="img6" src="img/gal-img-6.png" alt="#">
+                        </div>
+                    </div>
+                    <button>more</button>
+                </div>
+            </div>
+            <!--SIDEBAR-->
+            <div class="col-sm-4">
+                <div class="side-bar">
+                    <div class="mid-title">
+                        <h3>Gallery Updates</h3>
+                    </div>
+                    <div class="side-event">
+                        <p>Accusantium animi corporis doloribus est facilis illo, incidunt ipsum magni modi nam, neque officia officiis perferendis placeat praesentium quibusdam saepe sequi vel officiis perferendis placeat praesentium quibusdam vero voluptatem? Alias illum inventore ipsa natus omnis quae quaerat unde!</p>
+                        <p>Consectetur adipisicing elit. Aut, dolores, odio! Adipisci amet placeat sint totam ut! Accusantium animi corporis doloribus est facilis illo, incidunt ipsum magni modi nam, neque officia officiis perferendis placeat praesentium quibusdam saepe sequi vel vero voluptatem? Alias illum inventore ipsa natus omnis quae quaerat unde!</p>
+                        <button>more</button>
+                    </div>
+                    <div class="mid-title">
+                        <h3>Our Achive</h3>
+                    </div>
+                    <div class="side-event">
+                        <ul>
+                            <li> <small>&#9658;</small> Lorem ipsum dolor sit.</li>
+                            <li> <small>&#9658;</small> Animi dignissimos quaerat sint.</li>
+                            <li> <small>&#9658;</small> Atque dolorem laborum pariatur.</li>
+                            <li> <small>&#9658;</small> Accusamus in nam odio.</li>
+                            <li> <small>&#9658;</small> Ea fugiat in ipsum.</li>
+                            <li> <small>&#9658;</small> Dolorum minima possimus ratione.</li>
+                            <li> <small>&#9658;</small> Animi harum iste ullam.</li>
+                            <li> <small>&#9658;</small> Accusamus in nam odio.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--FOOTER-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-2">
+                <p class="copyright">Eagles Troops &copy; 2011 <br> <span>Website Template</span> by TemplateMonster.com</p>
+            </div>
+            <div class="col-sm-3 col-sm-offset-3">
+                <ul class="social">
+                    <li ><a href="#" class="ico-facebook"></a></li>
+                    <li ><a href="#" class="ico-twitter"></a></li>
+                    <li ><a href="#" class="ico-picasa" ></a></li>
+                    <li ><a href="#" class="ico-youtube"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
